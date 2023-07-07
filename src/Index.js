@@ -1,5 +1,6 @@
 //Importaciones
 const express = require('express');
+const practicantes = require('./fucntions/Practicantes');
 
 //Variables
 const puerto = 3500;
@@ -26,4 +27,5 @@ app.get('/register',(req,res) => {
 });
 
 //Server
+console.clear();
 app.listen(puerto,()=>{console.log('servidor corriendo en el puerto ',puerto)})
