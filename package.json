@@ -1,0 +1,15 @@
+{
+  "name": "idtoluserver",
+  "version": "1.0.0",
+  "description": "Plataforma creada por y para los practicantes de idt",
+  "main": "index.js",
+  "scripts": {
+    "idt": " nodemon ./src/index.js"
+  },
+  "author": "Yoimar, Samuel, Yarlis y Sara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
