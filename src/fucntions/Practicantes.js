@@ -1,4 +1,4 @@
-const { query } = require("express")
+
 
 const Practicantes = [
     user1={
