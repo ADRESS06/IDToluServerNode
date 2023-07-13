@@ -13,7 +13,7 @@ app.use("/static", express.static("public"));
 app.get('/',(req,res) => {
     res.status(200)
     res.sendFile( 
-        __dirname + '/index.html');
+        __dirname + '/html/index.html');
 });
 //Ruta id
 app.get('/id/:practicante',(req,res) => {
@@ -23,7 +23,7 @@ app.get('/id/:practicante',(req,res) => {
 //Ruta register 
 app.get('/register',(req,res) => {
     res.status(200)
-    res.send('Bienvenido a los registros');
+    res.sendFile(__dirname + '/html/register.html');
 });
 
 //Server

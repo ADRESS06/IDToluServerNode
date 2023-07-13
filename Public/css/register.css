@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0,207,248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario h4{
+    font-size: 30px;
+}
+.formulario{
+    width: 80%;
+    background: white;
+    padding: 40px;
+    margin-top: 2%;
+    border-radius: 14px;
+}
+.caja{
+    height: 20%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.caja2{
+    width: 100%;
+    height: auto;
+}
+.caja3{
+    width: 98%;
+    height: 370px;
+}
+.cubo{
+    width: 98%;
+    height: 20%;
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: black;
+}
+.cubo_info{
+    width: 98%;
+    height: 75%;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align:left,top;
+}
+.foto{
+    width: 100%;
+    height: 95%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.boton_r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-family: 'calibri';
+    background-color: rgb(0,207,248);
+    padding: 15px;
+}
